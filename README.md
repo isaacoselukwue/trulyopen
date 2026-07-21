@@ -15,6 +15,9 @@ TrulyOpen turns your own machine into a private AI workbench. Paste any Hugging 
 - **Hardware dashboard** — live RAM, disk and VRAM meters plus a readout of which inference backends (torch, CUDA, transformers, diffusers, llama.cpp) are available.
 - **Graceful out-of-memory handling** — if a load or generation exhausts memory, the model is automatically unloaded and GPU/CPU memory freed, and the UI tells you what to try next.
 
+Live use:
+![What is mc sims](image-1.png)
+
 ## Requirements
 
 - **Node.js 20+** (frontend)
@@ -152,6 +155,8 @@ The frontend is a static Vite build and deploys happily to Vercel — set `VITE_
 ## Architecture
 
 The full module contract to be shared in [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
+
+![Playground](image.png)
 
 ## Privacy
 
